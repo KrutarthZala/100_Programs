@@ -10,11 +10,12 @@ public class Prog3R {
             if (a % count == 0) {
                 System.out.print(count + " ");   
             }
+            count++;
             facNum(a);
         }
     }    
     public static void main(String[] args) {
-        int n,c=1;
+        int n;
         Scanner kz = new Scanner(System.in);
         System.out.print("Enter the number : ");
         n = kz.nextInt();
