@@ -56,7 +56,7 @@ class InsertElement
                     arr[i+1] = arr[i];
                     arr[i] = temp;
                     i++;
-                } //*This method is complex 
+                } //*This method is complex and it is incomplete
             
                 arr[pos - 1] = val;
             }
